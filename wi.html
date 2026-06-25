@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> weather </title>
+  <link rel="stylesheet" href="./Wi.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="search-box">
+      <input type="text" placeholder="enter location" class="input_box">
+      <button id="btn" type="button" class="fa-solid fa-magnifying-glass"></button>
+      <audio id="error" controls> <source src="error.mp3" type=" audio/mp3"></audio>
+    </div>
+<div id="er"> 
+<h1> sorry cannot loaded!!!</h1>
+<img src="error.jpg"  >
+
+</div>
+    <div class="weather_body">
+      <div class="img">
+ <img src="snow.jpg" alt="error 404" id="snow" >
+ <img src="sunny.jpg"alt="error" id="sunny" >
+ 
+ <img src="cloudy.jpg" id="cloudy">
+ </div>
+ <img src="rainy.jpg" id="rainy">
+ <div class="weather-box">
+   <p class="tempe"> 0<sup>°c</sup></p>
+   <p class="descr">light rain</p>
+ </div>
+    
+  <div class="weather-detalis" >
+    <div class="humidity">
+      <i class="fa-solid fa-droplet"></i>
+     <div class="text">
+      <span id="humidity"> 45%</span>
+      <p>humidity</p>
+      </div>
+    </div>
+    <div class="wind">
+      <i class="fa-solid fa-wind"></i>
+      <div class="text">
+        <span id="wind">12km/h</span>
+        <p>wind speed</p>
+      </div>
+      
+    </div>
+    </div>
+    
+    
+  </div> 
+  
+  </div>
+  <script    src="./Wi.js" ></script>
+</body>
+</html>
