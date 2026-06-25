@@ -1,0 +1,130 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: Sans-Serif;;
+}
+body{
+  min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+  
+}
+.container{
+  width: 500px;
+  height: 600px;
+  height:min-height;
+  background-color:white;
+  border-radius: 10px;
+
+  padding: 20px;
+  
+}
+.search-box{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.search-box input{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+width: 75%; 
+
+text-transform: capitalize;
+color: coral;
+background-color: lightblue;
+border-radius: 20px;
+}
+button{
+  width: 50px;
+  height:30px;
+  background-color: lightblue;
+  font-size: 20px;
+  border-radius: 30%;
+  
+  margin-left:20px ;
+}
+button:active{
+  color: lightpink;
+  background-color: lightgreen;
+}
+#error{
+  display:none;
+}
+.weather_body{
+display: none;
+justify-content: center;
+align-items: center;
+  flex-direction: column;
+  margin-block:60px;
+}
+
+#snow,#cloudy,#sunny{
+  width: 60%;
+  display: none;
+}
+#er{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-block: 30px;
+}
+h1{
+  font-size: 20px;
+  color:#6b6b6b;
+  
+  
+}
+#er img{
+  width: 60%;
+  
+}
+#rainy{
+  width: 60%;
+}
+.weather-box{
+  margin-block: 20px;
+  text-align: center;
+}
+.weather-box .tempe{
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+}
+.weather-box .tempe sup{
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+}
+.weather-box .descr{
+  font-size: 40px;
+  font-weight: 600;
+}
+.weather-detalis{
+  display: flex;
+  justify-content:  space-between;
+  margin-block: 50px;
+  
+}
+ .humidity,.wind{
+  display: flex;
+  align-items: center;
+}
+.weather-detalis i{
+  font-size: 30px;
+}
+.text span{
+  font-size: 30px;
+  font-weight: 400;
+}
